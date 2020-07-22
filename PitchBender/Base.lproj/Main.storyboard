@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7O8-Ds-COH" customClass="TunerView" customModule="PitchBender" customModuleProvider="target">
-                                <rect key="frame" x="20" y="102" width="374" height="200"/>
+                                <rect key="frame" x="0.0" y="102" width="414" height="200"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Amplitude" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nx2-Lp-pAT">
@@ -58,7 +58,7 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="7O8-Ds-COH" firstAttribute="trailing" secondItem="lId-q1-mWy" secondAttribute="trailing" id="0HY-co-g1i"/>
+                            <constraint firstItem="7O8-Ds-COH" firstAttribute="trailing" secondItem="lId-q1-mWy" secondAttribute="trailing" constant="20" id="0HY-co-g1i"/>
                             <constraint firstItem="nx2-Lp-pAT" firstAttribute="trailing" secondItem="BOe-GM-RGj" secondAttribute="trailing" id="3WN-80-9Gs"/>
                             <constraint firstItem="BOe-GM-RGj" firstAttribute="leading" secondItem="Nqb-4r-1Qk" secondAttribute="leading" id="8Of-89-zAs"/>
                             <constraint firstItem="lId-q1-mWy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="GcM-6l-Qhk"/>
@@ -72,7 +72,7 @@
                             <constraint firstItem="BOe-GM-RGj" firstAttribute="trailing" secondItem="Nqb-4r-1Qk" secondAttribute="trailing" id="jvo-DX-xKX"/>
                             <constraint firstItem="nx2-Lp-pAT" firstAttribute="top" secondItem="lId-q1-mWy" secondAttribute="bottom" constant="8" id="t9g-Uo-gMy"/>
                             <constraint firstItem="lId-q1-mWy" firstAttribute="top" secondItem="7O8-Ds-COH" secondAttribute="bottom" constant="81" id="tXs-8G-qlo"/>
-                            <constraint firstItem="7O8-Ds-COH" firstAttribute="leading" secondItem="lId-q1-mWy" secondAttribute="leading" id="wYj-Sk-OVa"/>
+                            <constraint firstItem="7O8-Ds-COH" firstAttribute="leading" secondItem="lId-q1-mWy" secondAttribute="leading" constant="-20" id="wYj-Sk-OVa"/>
                             <constraint firstItem="lId-q1-mWy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="387" id="x4O-0I-hxa"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
